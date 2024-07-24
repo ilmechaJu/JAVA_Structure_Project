@@ -1,4 +1,4 @@
-# JAVA_Project-Structure-
+# JAVA_Structure_Project
 #### 객체지향언어의 특성을 살린 프로젝트입니다.
 
 
