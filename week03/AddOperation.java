@@ -1,9 +1,13 @@
 package week03;
 
-public class AddOperation{
-
-    public double operate(int firstNumber, int secondNumber){
+public class AddOperation extends AbstractOperation{
+    @Override
+    public double operate(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
-
     }
+
+    //public double operate(int firstNumber, int secondNumber){
+    //    return firstNumber + secondNumber;
+    //}
+
 }

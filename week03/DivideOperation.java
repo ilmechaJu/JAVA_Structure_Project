@@ -1,7 +1,11 @@
 package week03;
 
-public class DivideOperation {
-    public double operate (int firstNumber, int secondNumber){
+public class DivideOperation extends AbstractOperation{
+    @Override
+    public double operate(int firstNumber, int secondNumber) {
         return firstNumber / secondNumber;
     }
+//    public double operate (int firstNumber, int secondNumber){
+//        return firstNumber / secondNumber;
+//    }
 }
